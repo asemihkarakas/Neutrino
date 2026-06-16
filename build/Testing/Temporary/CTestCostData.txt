@@ -1,0 +1,12 @@
+ArenaAllocator.BasicAllocation 1 0.00148991
+ArenaAllocator.AlignmentIsRespected 1 0.00136655
+ArenaAllocator.BadAlignmentRejected 1 0.00125466
+ArenaAllocator.OutOfMemoryReturnsError 1 0.00116173
+ArenaAllocator.ResetReclaims 1 0.00107578
+ArenaAllocator.AllocationsDoNotOverlap 1 0.00171525
+PacketPool.AcquireReturnsCorrectSize 1 0.00129016
+PacketPool.ReleaseRestoresAvailability 1 0.00120942
+PacketPool.ExhaustionReturnsError 1 0.00115291
+PacketPool.WrittenDataSurvivesRoundtrip 1 0.00125563
+PacketPool.ConcurrentAcquireRelease 1 0.148304
+---

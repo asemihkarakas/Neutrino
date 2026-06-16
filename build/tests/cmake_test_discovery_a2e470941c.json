@@ -1,0 +1,73 @@
+{
+  "tests": 11,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ArenaAllocator",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "BasicAllocation",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 15
+        },
+        {
+          "name": "AlignmentIsRespected",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 23
+        },
+        {
+          "name": "BadAlignmentRejected",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 33
+        },
+        {
+          "name": "OutOfMemoryReturnsError",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 40
+        },
+        {
+          "name": "ResetReclaims",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 48
+        },
+        {
+          "name": "AllocationsDoNotOverlap",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "PacketPool",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "AcquireReturnsCorrectSize",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 94
+        },
+        {
+          "name": "ReleaseRestoresAvailability",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 102
+        },
+        {
+          "name": "ExhaustionReturnsError",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 116
+        },
+        {
+          "name": "WrittenDataSurvivesRoundtrip",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 135
+        },
+        {
+          "name": "ConcurrentAcquireRelease",
+          "file": "\/home\/semih\/Repository\/zero-latency-telemetry-ingestion-engine\/tests\/arena_test.cpp",
+          "line": 152
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate.dir
+/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-subbuild/CMakeFiles/edit_cache.dir
+/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-subbuild/CMakeFiles/rebuild_cache.dir

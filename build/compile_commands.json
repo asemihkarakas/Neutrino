@@ -1,0 +1,176 @@
+[
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DBENCHMARK_VERSION=\\\"v1.9.1\\\" -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/benchmark.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_api_internal.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_api_internal.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_name.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_name.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_register.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_register.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_runner.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_runner.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/check.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/check.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/check.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/colorprint.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/colorprint.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/colorprint.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/commandlineflags.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/commandlineflags.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/complexity.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/complexity.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/complexity.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/console_reporter.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/console_reporter.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/console_reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/counter.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/counter.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/counter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/csv_reporter.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/csv_reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/json_reporter.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/json_reporter.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/json_reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/perf_counters.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/perf_counters.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/perf_counters.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/reporter.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/reporter.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/statistics.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/statistics.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/statistics.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/string_util.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/string_util.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/string_util.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/sysinfo.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/sysinfo.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/sysinfo.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -Wno-maybe-uninitialized -o CMakeFiles/benchmark.dir/timers.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/timers.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/timers.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O2 -g -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -fsanitize=address -fno-omit-frame-pointer -o CMakeFiles/benchmark_main.dir/benchmark_main.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_main.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/src/benchmark_main.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/include -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fsanitize=address -fno-omit-frame-pointer -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock/include -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/include -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fsanitize=address -fno-omit-frame-pointer -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fsanitize=address -fno-omit-frame-pointer -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/include -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fsanitize=address -fno-omit-frame-pointer -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/src",
+  "command": "/usr/bin/c++  -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/include -O2 -g -DNDEBUG -std=c++20 -fsanitize=address -fno-omit-frame-pointer -Wall -Wextra -Werror -Wpedantic -Wshadow -Wconversion -Wsign-conversion -fno-exceptions -o CMakeFiles/zlte.dir/ingestion_pipeline.cpp.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/src/ingestion_pipeline.cpp",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/src/ingestion_pipeline.cpp",
+  "output": "src/CMakeFiles/zlte.dir/ingestion_pipeline.cpp.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/src",
+  "command": "/usr/bin/c++  -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/include -O2 -g -DNDEBUG -std=c++20 -fsanitize=address -fno-omit-frame-pointer -Wall -Wextra -Werror -Wpedantic -Wshadow -Wconversion -Wsign-conversion -fno-exceptions -o CMakeFiles/zlte_ingest.dir/main.cpp.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/src/main.cpp",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/src/main.cpp",
+  "output": "src/CMakeFiles/zlte_ingest.dir/main.cpp.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tools",
+  "command": "/usr/bin/c++  -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/include -O2 -g -DNDEBUG -std=c++20 -fsanitize=address -fno-omit-frame-pointer -Wall -Wextra -Werror -Wpedantic -Wshadow -Wconversion -Wsign-conversion -fno-exceptions -o CMakeFiles/zlte_gen.dir/packet_gen.cpp.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/tools/packet_gen.cpp",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/tools/packet_gen.cpp",
+  "output": "tools/CMakeFiles/zlte_gen.dir/packet_gen.cpp.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests",
+  "command": "/usr/bin/c++  -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/include -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/include -isystem /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -fsanitize=address -fno-omit-frame-pointer -Wall -Wextra -Werror -Wpedantic -Wshadow -Wconversion -Wsign-conversion -fno-exceptions -o CMakeFiles/zlte_tests.dir/arena_test.cpp.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/tests/arena_test.cpp",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/tests/arena_test.cpp",
+  "output": "tests/CMakeFiles/zlte_tests.dir/arena_test.cpp.o"
+},
+{
+  "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/benchmarks",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/include -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-src/include -O2 -g -DNDEBUG -std=c++20 -fsanitize=address -fno-omit-frame-pointer -Wall -Wextra -Werror -Wpedantic -Wshadow -Wconversion -Wsign-conversion -fno-exceptions -o CMakeFiles/zlte_benchmarks.dir/arena_bench.cpp.o -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/benchmarks/arena_bench.cpp",
+  "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/benchmarks/arena_bench.cpp",
+  "output": "benchmarks/CMakeFiles/zlte_benchmarks.dir/arena_bench.cpp.o"
+}
+]

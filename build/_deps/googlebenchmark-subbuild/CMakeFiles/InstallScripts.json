@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

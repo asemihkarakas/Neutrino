@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine",
+    "command": "/usr/bin/g++ -std=c++20 -fno-exceptions -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/include -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/tests/arena_test.cpp",
+    "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/tests/arena_test.cpp"
+  },
+  {
+    "directory": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine",
+    "command": "/usr/bin/g++ -std=c++20 -fno-exceptions -I/home/semih/Repository/zero-latency-telemetry-ingestion-engine/include -c /home/semih/Repository/zero-latency-telemetry-ingestion-engine/benchmarks/arena_bench.cpp",
+    "file": "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/benchmarks/arena_bench.cpp"
+  }
+]

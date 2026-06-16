@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzlte.a CMakeFiles/zlte.dir/ingestion_pipeline.cpp.o
+/usr/bin/ranlib libzlte.a

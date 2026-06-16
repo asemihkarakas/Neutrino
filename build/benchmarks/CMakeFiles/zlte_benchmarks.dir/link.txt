@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG -fsanitize=address -Wl,--dependency-file=CMakeFiles/zlte_benchmarks.dir/link.d CMakeFiles/zlte_benchmarks.dir/arena_bench.cpp.o -o zlte_benchmarks  ../src/libzlte.a ../_deps/googlebenchmark-build/src/libbenchmark_main.a ../_deps/googlebenchmark-build/src/libbenchmark.a -lrt

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG -fsanitize=address -Wl,--dependency-file=CMakeFiles/zlte_tests.dir/link.d CMakeFiles/zlte_tests.dir/arena_test.cpp.o -o zlte_tests  ../src/libzlte.a ../lib/libgtest_main.a ../lib/libgtest.a

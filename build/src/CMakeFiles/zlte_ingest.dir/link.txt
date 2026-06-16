@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG -fsanitize=address -Wl,--dependency-file=CMakeFiles/zlte_ingest.dir/link.d CMakeFiles/zlte_ingest.dir/main.cpp.o -o zlte_ingest  libzlte.a

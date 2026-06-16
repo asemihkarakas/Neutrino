@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googlebenchmark-build/src/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-build/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/src/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tools/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/cmake_install.cmake",
+		"/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/benchmarks/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
