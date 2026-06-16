@@ -341,6 +341,52 @@ The project is divided into four phases. Each phase is a vertical slice: it can 
 
 ---
 
+### Phase 4 — Observability: Prometheus + Grafana Dashboard
+
+> Goal: a live Grafana dashboard that visualizes ingestion throughput, per-flow latency distributions, and Phase 3 prediction performance — with zero impact on the data path latency.
+
+**Architecture principle**: the data path (`recv thread → SPSC → process thread`) never knows visualization exists. A dedicated exporter thread reads `FlowStats[]` atomics with `relaxed` loads and serves a Prometheus `/metrics` HTTP endpoint. All `std::string` formatting and socket I/O lives in this thread only.
+
+```
+recv → SPSC → process → FlowStats[] ←── exporter thread (HTTP /metrics)
+                                               ↑ scrape every 5s
+                                         Prometheus server
+                                               ↑ query
+                                         Grafana dashboard (browser)
+```
+
+**Prometheus exporter (C++ side)**
+- [ ] `MetricsExporter` class (`include/zlte/metrics_exporter.hpp`) — dedicated thread, reads `FlowStats[]` atomics, formats Prometheus text exposition format
+- [ ] Minimal hand-rolled HTTP server (single `accept` loop, no external dependency) serving `GET /metrics` on a configurable port (default: `9091`)
+- [ ] Counter metrics: `zlte_packets_total`, `zlte_bytes_total`, `zlte_drops_total` — labelled by `flow`, `dscp_class`, `dscp`
+- [ ] Gauge metrics: `zlte_pool_slots_in_use`, `zlte_queue_depth_current`
+- [ ] Summary metrics: `zlte_latency_microseconds` — exposes avg, min, max; labelled by flow
+- [ ] Phase 3 metrics: `zlte_inference_latency_microseconds`, `zlte_prediction_confidence`, `zlte_predicted_qos_class`
+
+**Infrastructure (Docker Compose)**
+- [ ] `docker-compose.yml` — spins up Prometheus + Grafana with one command
+- [ ] `prometheus.yml` — scrape config targeting `host.docker.internal:9091/metrics` at 5s interval
+- [ ] Grafana provisioning: auto-loads Prometheus datasource and the pre-built dashboard on container start
+
+**Grafana dashboard panels**
+- [ ] **Throughput** — line chart: `rate(zlte_packets_total[30s])` per flow, all flows overlaid
+- [ ] **Bandwidth** — line chart: `rate(zlte_bytes_total[30s])` in MB/s per DSCP class
+- [ ] **Latency trends** — line chart: avg/min/max latency per flow over the last 5 minutes
+- [ ] **Pool health** — gauge: pool slots in use / 1024, colour threshold (green < 80%, red > 95%)
+- [ ] **Drop rate** — stat panel: `rate(zlte_drops_total[1m])` — should read 0 under normal load
+- [ ] **DSCP class breakdown** — bar chart: packets per QoS class (EF, AF4x, AF3x, AF2x, AF1x, BE)
+- [ ] *(Phase 3)* **Prediction confidence** — gauge per flow, 0–100%
+- [ ] *(Phase 3)* **Predicted QoS class** — state timeline, colour-coded by class
+- [ ] *(Phase 3)* **Inference latency** — line chart: p50/p95/p99 inference µs over time
+- [ ] *(Phase 3)* **Accuracy** — stat panel: rolling prediction accuracy against ground-truth DSCP
+
+**Validation**
+- [ ] Confirm exporter thread adds 0 ns to `recvfrom → stat update` latency (benchmark before/after)
+- [ ] Confirm dashboard refreshes correctly under 1M pkt/s engine load
+- [ ] Dashboard JSON exported to `grafana/dashboard.json` and committed to repo
+
+---
+
 ## Project Constraints (CLAUDE.md)
 
 | Rule | Enforcement |
