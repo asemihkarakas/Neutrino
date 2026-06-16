@@ -1,4 +1,8 @@
-# Zero-Latency QoS Telemetry Ingestion Engine
+<p align="center">
+  <img src="banner.svg" alt="Neutrino — Zero-Latency QoS Telemetry Ingestion Engine" width="100%"/>
+</p>
+
+# Neutrino — Zero-Latency QoS Telemetry Ingestion Engine
 
 > A lock-free, allocation-free C++20 network engine that absorbs thousands of concurrent QoS telemetry streams from Radio Access Networks — without a single mutex, heap allocation, or OS context switch on the data path.
 
