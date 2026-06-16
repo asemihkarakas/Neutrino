@@ -1,0 +1,62 @@
+# ── Build directories ─────────────────────────────────────────────────────────
+build/
+cmake-build-*/
+out/
+
+# ── CMake generated files ─────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CTestCostData.txt
+Testing/
+_deps/
+compile_commands.json
+
+# ── Compiled binaries & object files ─────────────────────────────────────────
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.out
+zlte_ingest
+zlte_gen
+zlte_tests
+zlte_benchmarks
+
+# ── AddressSanitizer / profiling artifacts ────────────────────────────────────
+*.prof
+*.profraw
+perf.data
+perf.data.old
+flamegraph*.svg
+*.folded
+
+# ── Core dumps ────────────────────────────────────────────────────────────────
+core
+core.*
+vgcore.*
+
+# ── clangd cache (generated — not config) ────────────────────────────────────
+.cache/
+
+# ── IDE & editor files ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# ── Dependency files (GCC/Clang) ─────────────────────────────────────────────
+*.d
+
+# ── Benchmark result exports ──────────────────────────────────────────────────
+benchmark_results*.json
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
