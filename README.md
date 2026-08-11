@@ -165,18 +165,6 @@ The benchmark suite also reports 2/4/8-thread contended numbers for both structu
 
 ---
 
-## Project Constraints (`CLAUDE.md`)
-
-| Rule | Enforcement |
-|---|---|
-| C++20 only | `set(CMAKE_CXX_STANDARD 20)`, `cxx_std_20` feature |
-| No exceptions | `-fno-exceptions`, `Result<T,E>` everywhere |
-| No mutexes on data path | `std::atomic` with explicit memory orders only |
-| Cacheline alignment | `alignas(64)` on all shared hot variables |
-| No `std::string` on hot path | `std::string_view`, raw `std::byte*`, `std::span` |
-
----
-
 ## What's Next
 
 The pipeline above is a single blocking socket feeding one recv thread and one process thread — correct and fast, but not yet built for thousands of concurrent senders or production observability. In progress:
