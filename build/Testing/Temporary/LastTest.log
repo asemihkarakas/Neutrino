@@ -1,10 +1,10 @@
-Start testing: Jun 17 01:31 +03
+Start testing: Aug 11 12:56 +03
 ----------------------------------------------------------
 1/11 Testing: ArenaAllocator.BasicAllocation
 1/11 Test: ArenaAllocator.BasicAllocation
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=ArenaAllocator.BasicAllocation" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"ArenaAllocator.BasicAllocation" start time: Jun 17 01:31 +03
+"ArenaAllocator.BasicAllocation" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -17,13 +17,13 @@ Note: Google Test filter = ArenaAllocator.BasicAllocation
 [----------] 1 test from ArenaAllocator (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArenaAllocator.BasicAllocation" end time: Jun 17 01:31 +03
+"ArenaAllocator.BasicAllocation" end time: Aug 11 12:56 +03
 "ArenaAllocator.BasicAllocation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/11 Test: ArenaAllocator.AlignmentIsRespected
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=ArenaAllocator.AlignmentIsRespected" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"ArenaAllocator.AlignmentIsRespected" start time: Jun 17 01:31 +03
+"ArenaAllocator.AlignmentIsRespected" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -44,13 +44,13 @@ Note: Google Test filter = ArenaAllocator.AlignmentIsRespected
 [----------] 1 test from ArenaAllocator (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"ArenaAllocator.AlignmentIsRespected" end time: Jun 17 01:31 +03
+"ArenaAllocator.AlignmentIsRespected" end time: Aug 11 12:56 +03
 "ArenaAllocator.AlignmentIsRespected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/11 Test: ArenaAllocator.BadAlignmentRejected
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=ArenaAllocator.BadAlignmentRejected" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"ArenaAllocator.BadAlignmentRejected" start time: Jun 17 01:31 +03
+"ArenaAllocator.BadAlignmentRejected" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -74,10 +74,10 @@ Note: Google Test filter = ArenaAllocator.BadAlignmentRejected
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArenaAllocator.BadAlignmentRejected" end time: Jun 17 01:31 +03
+"ArenaAllocator.BadAlignmentRejected" end time: Aug 11 12:56 +03
 "ArenaAllocator.BadAlignmentRejected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/11 Test: ArenaAllocator.OutOfMemoryReturnsError
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=ArenaAllocator.OutOfMemoryReturnsError" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"ArenaAllocator.OutOfMemoryReturnsError" start time: Jun 17 01:31 +03
+"ArenaAllocator.OutOfMemoryReturnsError" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -101,10 +101,10 @@ Note: Google Test filter = ArenaAllocator.OutOfMemoryReturnsError
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArenaAllocator.OutOfMemoryReturnsError" end time: Jun 17 01:31 +03
+"ArenaAllocator.OutOfMemoryReturnsError" end time: Aug 11 12:56 +03
 "ArenaAllocator.OutOfMemoryReturnsError" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/11 Test: ArenaAllocator.ResetReclaims
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=ArenaAllocator.ResetReclaims" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"ArenaAllocator.ResetReclaims" start time: Jun 17 01:31 +03
+"ArenaAllocator.ResetReclaims" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -128,10 +128,10 @@ Note: Google Test filter = ArenaAllocator.ResetReclaims
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArenaAllocator.ResetReclaims" end time: Jun 17 01:31 +03
+"ArenaAllocator.ResetReclaims" end time: Aug 11 12:56 +03
 "ArenaAllocator.ResetReclaims" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/11 Test: ArenaAllocator.AllocationsDoNotOverlap
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=ArenaAllocator.AllocationsDoNotOverlap" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"ArenaAllocator.AllocationsDoNotOverlap" start time: Jun 17 01:31 +03
+"ArenaAllocator.AllocationsDoNotOverlap" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -148,17 +148,17 @@ Note: Google Test filter = ArenaAllocator.AllocationsDoNotOverlap
 [----------] Global test environment set-up.
 [----------] 1 test from ArenaAllocator
 [ RUN      ] ArenaAllocator.AllocationsDoNotOverlap
-[       OK ] ArenaAllocator.AllocationsDoNotOverlap (0 ms)
-[----------] 1 test from ArenaAllocator (0 ms total)
+[       OK ] ArenaAllocator.AllocationsDoNotOverlap (8 ms)
+[----------] 1 test from ArenaAllocator (8 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (8 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"ArenaAllocator.AllocationsDoNotOverlap" end time: Jun 17 01:31 +03
+"ArenaAllocator.AllocationsDoNotOverlap" end time: Aug 11 12:56 +03
 "ArenaAllocator.AllocationsDoNotOverlap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/11 Test: PacketPool.AcquireReturnsCorrectSize
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=PacketPool.AcquireReturnsCorrectSize" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"PacketPool.AcquireReturnsCorrectSize" start time: Jun 17 01:31 +03
+"PacketPool.AcquireReturnsCorrectSize" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -179,13 +179,13 @@ Note: Google Test filter = PacketPool.AcquireReturnsCorrectSize
 [----------] 1 test from PacketPool (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PacketPool.AcquireReturnsCorrectSize" end time: Jun 17 01:31 +03
+"PacketPool.AcquireReturnsCorrectSize" end time: Aug 11 12:56 +03
 "PacketPool.AcquireReturnsCorrectSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/11 Test: PacketPool.ReleaseRestoresAvailability
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=PacketPool.ReleaseRestoresAvailability" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"PacketPool.ReleaseRestoresAvailability" start time: Jun 17 01:31 +03
+"PacketPool.ReleaseRestoresAvailability" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -209,10 +209,10 @@ Note: Google Test filter = PacketPool.ReleaseRestoresAvailability
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"PacketPool.ReleaseRestoresAvailability" end time: Jun 17 01:31 +03
+"PacketPool.ReleaseRestoresAvailability" end time: Aug 11 12:56 +03
 "PacketPool.ReleaseRestoresAvailability" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/11 Test: PacketPool.ExhaustionReturnsError
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=PacketPool.ExhaustionReturnsError" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"PacketPool.ExhaustionReturnsError" start time: Jun 17 01:31 +03
+"PacketPool.ExhaustionReturnsError" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -236,10 +236,10 @@ Note: Google Test filter = PacketPool.ExhaustionReturnsError
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"PacketPool.ExhaustionReturnsError" end time: Jun 17 01:31 +03
+"PacketPool.ExhaustionReturnsError" end time: Aug 11 12:56 +03
 "PacketPool.ExhaustionReturnsError" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/11 Test: PacketPool.WrittenDataSurvivesRoundtrip
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=PacketPool.WrittenDataSurvivesRoundtrip" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"PacketPool.WrittenDataSurvivesRoundtrip" start time: Jun 17 01:31 +03
+"PacketPool.WrittenDataSurvivesRoundtrip" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -263,10 +263,10 @@ Note: Google Test filter = PacketPool.WrittenDataSurvivesRoundtrip
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"PacketPool.WrittenDataSurvivesRoundtrip" end time: Jun 17 01:31 +03
+"PacketPool.WrittenDataSurvivesRoundtrip" end time: Aug 11 12:56 +03
 "PacketPool.WrittenDataSurvivesRoundtrip" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/11 Test: PacketPool.ConcurrentAcquireRelease
 Command: "/home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests/zlte_tests" "--gtest_filter=PacketPool.ConcurrentAcquireRelease" "--gtest_also_run_disabled_tests"
 Directory: /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/tests
-"PacketPool.ConcurrentAcquireRelease" start time: Jun 17 01:31 +03
+"PacketPool.ConcurrentAcquireRelease" start time: Aug 11 12:56 +03
 Output:
 ----------------------------------------------------------
 Running main() from /home/semih/Repository/zero-latency-telemetry-ingestion-engine/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -283,18 +283,18 @@ Note: Google Test filter = PacketPool.ConcurrentAcquireRelease
 [----------] Global test environment set-up.
 [----------] 1 test from PacketPool
 [ RUN      ] PacketPool.ConcurrentAcquireRelease
-[       OK ] PacketPool.ConcurrentAcquireRelease (146 ms)
-[----------] 1 test from PacketPool (146 ms total)
+[       OK ] PacketPool.ConcurrentAcquireRelease (366 ms)
+[----------] 1 test from PacketPool (366 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (146 ms total)
+[==========] 1 test from 1 test suite ran. (367 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.15 sec
+Test time =   0.40 sec
 ----------------------------------------------------------
 Test Passed.
-"PacketPool.ConcurrentAcquireRelease" end time: Jun 17 01:31 +03
+"PacketPool.ConcurrentAcquireRelease" end time: Aug 11 12:56 +03
 "PacketPool.ConcurrentAcquireRelease" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 17 01:31 +03
+End testing: Aug 11 12:56 +03

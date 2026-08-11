@@ -1,5 +1,6 @@
 #pragma once
 
+#include "config.hpp"
 #include "result.hpp"
 
 #include <atomic>
@@ -93,11 +94,11 @@ private:
 
     // The atomic bump pointer sits on its own cacheline to prevent false sharing
     // with the storage or with other hot variables in the same struct.
-    alignas(64) std::atomic<std::size_t> offset_{0};
+    alignas(kCacheLineSize) std::atomic<std::size_t> offset_{0};
 
     // Backing store — 64-byte aligned so allocations promoted to cacheline
     // alignment never require a second level of indirection.
-    alignas(64) std::byte storage_[Capacity];
+    alignas(kCacheLineSize) std::byte storage_[Capacity];
 };
 
 } // namespace zlte

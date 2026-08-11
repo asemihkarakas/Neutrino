@@ -1,5 +1,6 @@
 #pragma once
 
+#include "config.hpp"
 #include "result.hpp"
 
 #include <array>
@@ -41,7 +42,7 @@ class PacketPool {
 
     // Each slot is cacheline-aligned to prevent false sharing between
     // concurrently acquired adjacent slots.
-    struct alignas(64) Slot {
+    struct alignas(kCacheLineSize) Slot {
         std::byte              data[PacketSize];
         // next_idx is std::atomic to eliminate data races between an acquire()
         // reader that has a stale head pointer and a concurrent release() writer
@@ -151,10 +152,10 @@ private:
 
     // free_head_ and in_use_ each get their own cacheline; the hot read/CAS path
     // on free_head_ must never bounce off in_use_ writes from other threads.
-    alignas(64) std::atomic<std::uint64_t> free_head_{pack(kNull, 0u)};
-    alignas(64) std::atomic<std::size_t>   in_use_{0};
+    alignas(kCacheLineSize) std::atomic<std::uint64_t> free_head_{pack(kNull, 0u)};
+    alignas(kCacheLineSize) std::atomic<std::size_t>   in_use_{0};
 
-    alignas(64) std::array<Slot, PoolDepth> slots_;
+    alignas(kCacheLineSize) std::array<Slot, PoolDepth> slots_;
 };
 
 } // namespace zlte

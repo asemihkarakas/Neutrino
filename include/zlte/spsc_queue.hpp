@@ -1,5 +1,7 @@
 #pragma once
 
+#include "config.hpp"
+
 #include <array>
 #include <atomic>
 #include <cstddef>
@@ -45,9 +47,9 @@ public:
 private:
     static constexpr std::size_t kMask = Capacity - 1u;
 
-    alignas(64) std::atomic<std::size_t> head_{0};
-    alignas(64) std::atomic<std::size_t> tail_{0};
-    alignas(64) std::array<T, Capacity>  buf_{};
+    alignas(kCacheLineSize) std::atomic<std::size_t> head_{0};
+    alignas(kCacheLineSize) std::atomic<std::size_t> tail_{0};
+    alignas(kCacheLineSize) std::array<T, Capacity>  buf_{};
 };
 
 } // namespace zlte

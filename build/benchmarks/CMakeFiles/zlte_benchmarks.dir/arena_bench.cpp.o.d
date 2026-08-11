@@ -2,8 +2,8 @@ benchmarks/CMakeFiles/zlte_benchmarks.dir/arena_bench.cpp.o: \
  /home/semih/Repository/zero-latency-telemetry-ingestion-engine/benchmarks/arena_bench.cpp \
  /usr/include/stdc-predef.h \
  /home/semih/Repository/zero-latency-telemetry-ingestion-engine/include/zlte/arena_allocator.hpp \
- /home/semih/Repository/zero-latency-telemetry-ingestion-engine/include/zlte/result.hpp \
- /usr/include/c++/15/type_traits \
+ /home/semih/Repository/zero-latency-telemetry-ingestion-engine/include/zlte/config.hpp \
+ /usr/include/c++/15/cstddef \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -15,7 +15,10 @@ benchmarks/CMakeFiles/zlte_benchmarks.dir/arena_bench.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h \
  /usr/include/c++/15/pstl/pstl_config.h \
- /usr/include/c++/15/bits/version.h /usr/include/c++/15/atomic \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
+ /usr/include/c++/15/bits/version.h \
+ /home/semih/Repository/zero-latency-telemetry-ingestion-engine/include/zlte/result.hpp \
+ /usr/include/c++/15/type_traits /usr/include/c++/15/atomic \
  /usr/include/c++/15/bits/atomic_base.h /usr/include/c++/15/new \
  /usr/include/c++/15/bits/exception.h \
  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
@@ -35,7 +38,6 @@ benchmarks/CMakeFiles/zlte_benchmarks.dir/arena_bench.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
- /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -105,8 +107,7 @@ benchmarks/CMakeFiles/zlte_benchmarks.dir/arena_bench.cpp.o: \
  /usr/include/c++/15/bits/exception_defines.h \
  /usr/include/c++/15/bits/std_mutex.h /usr/include/c++/15/bit \
  /usr/include/c++/15/concepts /usr/include/c++/15/cassert \
- /usr/include/assert.h /usr/include/c++/15/cstddef \
- /usr/include/c++/15/span /usr/include/c++/15/array \
+ /usr/include/assert.h /usr/include/c++/15/span /usr/include/c++/15/array \
  /usr/include/c++/15/compare /usr/include/c++/15/initializer_list \
  /usr/include/c++/15/bits/stl_algobase.h \
  /usr/include/c++/15/bits/stl_pair.h /usr/include/c++/15/bits/utility.h \

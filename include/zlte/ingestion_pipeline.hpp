@@ -1,5 +1,6 @@
 #pragma once
 
+#include "config.hpp"
 #include "packet_pool.hpp"
 #include "result.hpp"
 #include "spsc_queue.hpp"
@@ -26,9 +27,9 @@ static constexpr std::size_t kQueueDepth  = 4096;   // SPSC ring capacity (power
 static constexpr std::size_t kMaxFlows    = 1024;   // hash-table size for per-flow stats
 
 // Per-flow counters updated from the process thread.
-// alignas(64) ensures each FlowStats occupies its own cacheline(s) so
+// alignas(kCacheLineSize) ensures each FlowStats occupies its own cacheline(s) so
 // different flows' writes never bounce the same cacheline across threads.
-struct alignas(64) FlowStats {
+struct alignas(kCacheLineSize) FlowStats {
     std::atomic<std::uint64_t> packets{0};
     std::atomic<std::uint64_t> bytes{0};
     std::atomic<std::uint64_t> latency_sum_ns{0};
@@ -73,8 +74,8 @@ private:
     std::uint16_t port_;
     int           socket_fd_{-1};
 
-    alignas(64) std::atomic<bool>          running_{false};
-    alignas(64) std::atomic<std::uint64_t> dropped_{0};
+    alignas(kCacheLineSize) std::atomic<bool>          running_{false};
+    alignas(kCacheLineSize) std::atomic<std::uint64_t> dropped_{0};
 
     PacketPool<kPacketSize, kPoolDepth>       pool_;
     SpscQueue<PacketDescriptor, kQueueDepth>  queue_;
