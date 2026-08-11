@@ -2,8 +2,6 @@
 
 This document walks through **what has been built so far**, why each piece exists, and how to run and observe it. It assumes you know C++ basics but have not necessarily written lock-free or systems-level code before.
 
-> **Phase 0 deep dive**: For a complete explanation of every class, every struct field, every memory-ordering decision, and an end-to-end trace of a packet from sender to dashboard, see **[phase-0.md](phase-0.md)**.
-
 ---
 
 ## Table of Contents
